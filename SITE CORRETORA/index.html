@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yuri Morais</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    display:flex;
+    background-color:#60abf1;
+}
+
+/* Menu lateral */
+.menu-lateral{
+    width:250px;
+    height:100vh;
+    background:#31f1de;
+    position:fixed;
+    left:0;
+    top:0;
+    padding-top:30px;
+}
+
+.logo{
+    text-align:center;
+    color:rgb(0, 0, 0);
+    font-size:28px;
+    font-weight:bold;
+    margin-bottom:40px;
+}
+
+.menu-lateral ul{
+    list-style:none;
+}
+
+.menu-lateral ul li{
+    margin:10px 0;
+}
+
+.menu-lateral ul li a{
+    display:block;
+    color:rgb(8, 8, 8);
+    text-decoration:none;
+    padding:15px 25px;
+    transition:0.3s;
+}
+
+.menu-lateral ul li a:hover{
+    background:#54bcdc;
+    padding-left:35px;
+}
+
+/* Conteúdo */
+.conteudo{
+    margin-left:250px;
+    width:100%;
+}
+
+section{
+    padding:80px 50px;
+    min-height:100vh;
+}
+
+#inicio{
+    background:#FFF0E1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+#inicio h1{
+    font-size:50px;
+    color:#000000;
+}
+
+#inicio p{
+    font-size:20px;
+    color:#000000;
+    margin-top:15px;
+}
+
+#historia{
+    background:#fff;
+}
+
+#feedback{
+    background:#FFF8F0;
+}
+
+#contato{
+    background:#fff;
+}
+
+h2{
+    color:#0f0c0a;
+    margin-bottom:20px;
+    font-size:36px;
+}
+
+p{
+    line-height:1.8;
+    color:#2e2c2c;
+    font-size:18px;
+}
+
+.card-feedback{
+    background:rgb(212, 220, 218);
+    padding:20px;
+    border-radius:10px;
+    margin:15px 0;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.contato-info{
+    margin-top:20px;
+}
+
+.contato-info p{
+    margin:10px 0;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin: 4px 0 0 0;
+    font-weight: normal;
+    color: #000000; /* Altere aqui para a cor desejada (ex: #e0e0e0 é um cinza claro) */
+}
+
+.text-group {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+</style>
+
+</head>
+<body>
+
+<nav class="menu-lateral">
+   <div class="header-container">
+  <div class="text-group">
+    <h1 class="title">Yuri Morais</h1>
+    <p class="subtitle">Corretora de Seguros</p>
+  </div>
+
+
+
+    <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#historia">História</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+
+<div class="conteudo">
+
+    <section id="inicio">
+        <h1>Yuri Morais Corretora de Seguros</h1>
+        <p>Protegendo seus bens e sua família com excelência.</p>
+    </section>
+
+    <section id="historia">
+        <h2>Nossa História</h2>
+
+        <p>
+            A Confeitaria Bolo Divino nasceu do amor pela confeitaria artesanal.
+            Desde o início, nossa missão é criar bolos, tortas e doces preparados
+            com ingredientes selecionados, proporcionando sabor, qualidade e momentos
+            inesquecíveis para nossos clientes.
+        </p>
+
+        <br>
+
+        <p>
+            Cada receita é feita com dedicação e carinho, mantendo a tradição
+            da confeitaria caseira com um toque especial de criatividade.
+        </p>
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback dos Clientes</h2>
+
+        <div class="card-feedback">
+            ⭐⭐⭐⭐⭐
+            <p>"O bolo de aniversário ficou perfeito! Sabor incrível."</p>
+        </div>
+
+        <div class="card-feedback">
+            ⭐⭐⭐⭐⭐
+            <p>"Atendimento excelente e doces maravilhosos."</p>
+        </div>
+
+        <div class="card-feedback">
+            ⭐⭐⭐⭐⭐
+            <p>"A melhor confeitaria da região. Recomendo muito!"</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+
+        <div class="contato-info">
+            <p>📍 Rua dos Doces, 123</p>
+            <p>📞 (74) 99999-9999</p>
+            <p>📧 contato@bolodivino.com.br</p>
+            <p>🕒 Segunda a Sábado: 08h às 18h</p>
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>
