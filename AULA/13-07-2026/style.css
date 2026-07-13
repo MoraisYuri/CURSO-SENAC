@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    gap: 20px; 
+}
+
+.div1 {
+    width: 500px;
+    height: 500px;
+    background: royalblue;
+    color: white;
+    font-size: 100px;
+    margin: 10px;
+}
